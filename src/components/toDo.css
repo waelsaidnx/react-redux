@@ -1,0 +1,105 @@
+.todoBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.typeTask{
+    width: 600px;
+    height: 40px;
+    border-radius: 5px;
+    border-color:grey;
+    border-width: 1px;
+    margin-left: 25%;
+}
+.addBut {
+    margin-right: 25%;
+    appearance: none;
+    backface-visibility: hidden;
+    background-color: #27ae60;
+    border-radius: 8px;
+    border-style: none;
+    box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+    box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: normal;
+  line-height: 1.5;
+  outline: none;
+  overflow: hidden;
+  padding: 13px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+.addBut:hover {
+    background-color: #1e8449;
+    opacity: 1;
+    transform: translateY(0);
+    transition-duration: .35s;
+  }
+  
+.addBut:active {
+    transform: translateY(2px);
+    transition-duration: .35s;
+  }
+.TaskBox{
+    margin-left: 30%;
+    margin-top: 50px;
+}
+.TaskLine{
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 5px;
+    border: solid;
+    padding: 5px;
+    border-radius: 10px;
+    border-width: 1px;
+}
+.TaskLine p{
+    margin-left:10px;
+}
+.Delete{
+    margin-right: 10px;
+    font-size: 20px;
+}
+.edit{
+    margin-right: 20px;
+    font-size: 21px;
+}
+.done{
+    margin-right: 20px;
+    font-size: 21px;
+}
+.boutons{
+    display: flex;
+    justify-content: space-around;
+}
+.Delete:hover{
+    color: red;
+    cursor: pointer;
+}
+.edit:hover{
+    color:rgb(22, 91, 122);
+    cursor: pointer;
+}
+.done:hover{
+    color:#022e14;
+    cursor: pointer;
+}
